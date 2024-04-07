@@ -15,8 +15,8 @@ const Demo = () => {
   };
 
   return (
-    <div className='tutorial'>
-      <div className='m-4 flex flex-row items-center gap-4s'>
+    <div>
+      <div className='ml-8 px-4 flex flex-col items-center space-x-4'>
         <TabButton
           title='About'
           onClick={() => selectTab('about')}
